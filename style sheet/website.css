@@ -116,9 +116,9 @@ header {
 
 .about-content img {
   height: 200px;
-  width: 170px;
+  width: 150px;
   object-fit: cover;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .about-content p {
@@ -197,13 +197,19 @@ header {
 }
 
 .progress-line .html {
-  width: 90%;
+  width: 80%;
 }
 .progress-line .css {
+  width: 70%;
+}
+.progress-line .bootstrap {
+  width: 50%;
+}
+.progress-line .javascript {
   width: 50%;
 }
 .progress-line .c {
-  width: 30%;
+  width: 50%;
 }
 
 .bar .progress-line span::before {
@@ -233,13 +239,19 @@ header {
 }
 
 .progress-line .html::after {
-  content: "90%";
+  content: "80%";
 }
 .progress-line .css::after {
+  content: "70%";
+}
+.progress-line .bootstrap::after {
+  content: "50%";
+}
+.progress-line .javascript::after {
   content: "50%";
 }
 .progress-line .c::after {
-  content: "30%";
+  content: "50%";
 }
 
 .navbar.solid {
@@ -308,23 +320,34 @@ header {
   height: 330px;
   width: 380px;
   object-fit: cover;
-  border-radius: 40%;
-  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.725);
+  border-radius: 50%;
+  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
   margin-right: 1.7rem;
 }
 
 .proj-1 .proj1-details{
-  width: 15rem;
+  width: 32rem;
+}
+
+.proj-1 .proj1-details i{
+  font-size: 1.5rem;
+  color: #07374a;
 }
 
 .proj-1 .proj1-details h2{
   font-size: 2rem;
-  color: #000000;
+  color: #07374a;
+}
+
+.proj-1 .proj1-details p{
+  font-size: 1.3rem;
+  color: #07374a;
+  font-weight: 600;
 }
 
 .proj-1 .proj1-details button{
-  background: #b4f6d4;
-  padding: 0.5rem; 
+  background: #f0f0e6;
+  padding: 0.5rem;
   margin-top: 0.5rem;
   width: 150px;
   border: none;
@@ -347,12 +370,12 @@ header {
 }
 
 .proj-1 .proj1-details button:hover {
-  background: #074057;
+  background: #07374a;
 }
   
 .proj-1 .proj1-details button:hover a,
 .proj-1 .proj1-details button:hover .fas {
-  color: #ffffff;
+  color: #f0f0e6;
 }
 
 /* ////.....proj2.....//// */
@@ -464,23 +487,23 @@ header {
 }
 
 .contact-content h2 {
-  font-size: 3rem;
-  font-weight: 450;
+  font-size: 2.5rem;
+  font-weight: 400;
   color: #25b79f;
   padding-bottom: 0.5rem;
 }
 
 .contact-content .mail {
   color: #f0f0e6;
-  padding-bottom: 1.2rem;
-  font-size: 1.5rem;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
 }
 
 .contact-content .links {
-  color: #04f6ce;
-  padding: 1.5rem;
-  padding-bottom: 2.8rem;
-  font-size: 1.2rem;
+  color: #25b79f;
+  padding: 0.5rem;
+  padding-bottom: 1.8rem;
+  font-size: 1rem;
 }
 
 .contact-content a {
@@ -530,6 +553,24 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .proj-1 img {
+    height: 230px;
+    width: 290px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .proj-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .proj-2 img {
+    height: 250px;
+    width: 290px;
+    margin-bottom: 0.5rem;
   }
 
   .work-arrow-2 a {
