@@ -200,16 +200,10 @@ header {
   width: 80%;
 }
 .progress-line .css {
-  width: 70%;
-}
-.progress-line .bootstrap {
-  width: 50%;
-}
-.progress-line .javascript {
-  width: 50%;
+  width: 30%;
 }
 .progress-line .c {
-  width: 50%;
+  width: 30%;
 }
 
 .bar .progress-line span::before {
@@ -242,16 +236,10 @@ header {
   content: "80%";
 }
 .progress-line .css::after {
-  content: "70%";
-}
-.progress-line .bootstrap::after {
-  content: "50%";
-}
-.progress-line .javascript::after {
-  content: "50%";
+  content: "30%";
 }
 .progress-line .c::after {
-  content: "50%";
+  content: "30%";
 }
 
 .navbar.solid {
@@ -623,8 +611,8 @@ header {
   }
 
   .proj-1 img {
-    height: 240px;
-    width: 290px;
+    height: 140px;
+    width: 190px;
     margin-bottom: 0.5rem;
   }
   
@@ -635,8 +623,8 @@ header {
   }
 
   .proj-2 img {
-    height: 240px;
-    width: 290px;
+    height: 140px;
+    width: 190px;
     margin-bottom: 0.5rem;
   }
 
